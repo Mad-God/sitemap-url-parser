@@ -9,6 +9,8 @@ readme = "README.md"
 python = "^3.9"
 requests = "^2.32.3"
 xmltodict = "^0.13.0"
+setuptools = "^74.1.0"
+wheel = "^0.44.0"
 
 
 [build-system]
