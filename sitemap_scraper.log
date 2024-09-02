@@ -1,0 +1,10 @@
+2024-09-03 00:47:12 - INFO - Script started running.
+2024-09-03 00:47:12 - INFO - Scraping started for Wendy's.
+2024-09-03 00:47:12 - DEBUG - Starting new HTTPS connection (1): locations.wendys.com:443
+2024-09-03 00:47:13 - DEBUG - https://locations.wendys.com:443 "GET /sitemap.xml HTTP/11" 200 None
+2024-09-03 00:47:13 - INFO - Parsing started for 10196 rows.
+2024-09-03 00:47:13 - INFO - Scraping done. Data saved at: Sitemaps/New Parser/wendys.csv.
+2024-09-03 00:47:13 - INFO - Scraping script finished executing.
+
+
+
