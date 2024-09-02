@@ -1,1 +1,1 @@
-from StartOverScraper import *  
+from .StartOverScraper import *

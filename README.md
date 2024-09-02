@@ -9,7 +9,7 @@ Developed by Satyam Singh 2024
 Initialise SitemapScraper
 
 ```python
-from sitemap_scraper import BaseSitemapScraper
+from sitemap_url_parser import BaseSitemapScraper
 
 scraper = BaseSitemapScraper(
     restaurant_name="Wendy's", # the name of the restaurant (this will be changed to scrape any sites, not just restaurants)
@@ -25,4 +25,6 @@ scraper = BaseSitemapScraper(
     }, # mapping of which data resides at which index in the URL (index are calulated by splitting URL on '/')
     substring_check="https://locations.wendys.com", # Check for asserting a specific substring that must be present in the URL
 )
+scraper.scrape()
+
 ```
